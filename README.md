@@ -2,11 +2,11 @@
 
 _**Technologies & Libraries used :**_
 
-1. Python
+`1. Python
 2. NLTK 
 3. numpy
 4. pandas
-5. tweepy 
+5. tweepy` 
 
 Throughout this project, focus is on a challenging problem of detecting emotional state of a person based on his/her interactions on social media platforms, in this  twitter. 
 The main contributions of work are as follows:
@@ -26,9 +26,9 @@ Twitter's official Twitter APIs for developers are used to collect publicly avai
 
 Following items are used to collect raw tweets.
 
-1) Python 
+`1) Python 
 2) Tweepy 
-3) Access Tokens given by Twitter APIs.
+3) Access Tokens given by Twitter APIs.`
 
 Tweepy, a python library that use Twitter APIs is used in this project.
 
@@ -38,10 +38,13 @@ Twitter REST APIs which are sufficient enough to collect required tweets data.
 
 Data extraction using python and tweepy. Steps involved in collecting raw tweets data :
 
-Get access Tokens from Twitter APIs:
-In order to access twitter REST APIs, one needs to get access tokens from Twitter APIs. There are four tokens to be taken from Twitter APIs to collect required tweets data. They are : a) Consumer Key, b) Consumer Secret, c) Access Token and d) Access Token Secret.
+_Get access Tokens from Twitter APIs: _
 
-Following are the steps to get the four tokens.
+In order to access twitter REST APIs, one needs to get access tokens from Twitter APIs. There are four tokens to be taken from Twitter APIs to collect required tweets data. They are :
+
+a) Consumer Key, b) Consumer Secret, c) Access Token and d) Access Token Secret.
+
+`Following are the steps to get the four tokens.
 
 1) Go to https://apps.twitter.com/ and log in with your twitter credentials.
 
@@ -51,8 +54,10 @@ Following are the steps to get the four tokens.
 
 4) In the next page, click on “API keys” tab, and copy the application’s “API key” and “API secret”.
 
-5) Scroll down and click “Create my access token”
-Collect tweets data:
+5) Scroll down and click “Create my access token”`
+
+_Collect tweets data:_
+
 In order to collect data, one needs to select the twitter users whose tweets are being collected. Selected two set of users who are active in twitter and then collected their tweets for a period of four months. Total number of tweets collected is around 40,000. Following is the code snippet to collect data for a specific user.
 
 All the tweets collected are stored in organized structured format.
