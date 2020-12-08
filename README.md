@@ -24,11 +24,11 @@ _**1. Data Collection :**_
 
 Twitter's official Twitter APIs for developers are used to collect publicly available tweets. There are many tools that use the official APIs to collect data. 
 
-`Following items are used to collect raw tweets.
+Following items are used to collect raw tweets.
 
 1) Python 
 2) Tweepy 
-3) Access Tokens given by Twitter APIs.`
+3) Access Tokens given by Twitter APIs.
 
 Tweepy, a python library that use Twitter APIs is used in this project.
 
@@ -44,17 +44,17 @@ In order to access twitter REST APIs, one needs to get access tokens from Twitte
 
 a) Consumer Key, b) Consumer Secret, c) Access Token and d) Access Token Secret.
 
-`Following are the steps to get the four tokens.
+Following are the steps to get the four tokens.
 
-1) Go to https://apps.twitter.com/ and log in with your twitter credentials.`
+1) Go to https://apps.twitter.com/ and log in with your twitter credentials.
 
-`2) Click on “Create New App” button.
+2) Click on “Create New App” button.
 
-3) Complete the form, check the “agree to the terms” check box and click on “Create your Twitter application” Button`
+3) Complete the form, check the “agree to the terms” check box and click on “Create your Twitter application” Button
 
-`4) In the next page, click on “API keys” tab, and copy the application’s “API key” and “API secret”.
+4) In the next page, click on “API keys” tab, and copy the application’s “API key” and “API secret”.
 
-5) Scroll down and click “Create my access token”``
+5) Scroll down and click “Create my access token”
 
 _Collect tweets data:_
 
@@ -68,14 +68,14 @@ Twitter is considered as a source for data. For data processing, first one needs
 
 Data Preprocessing involves following steps :
 
-`Removal of URLs in tweet text
+Removal of URLs in tweet text
 Removal of emoticons
 Removal of punctuations
 Tokenizing the sentences
 Removal of stop words as they do not contribute to polarity
 Parts of speech tagging of the sentences
 Count of positive and negative polarity words
-Grouping these modified tweets by user screen name or id`
+Grouping these modified tweets by user screen name or id
 
 _**4. Data labeling :**_
 
