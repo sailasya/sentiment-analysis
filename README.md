@@ -1,16 +1,26 @@
-#Sentiment Analysis
+**Sentiment Analysis**
+
+_**Technologies & Libraries used :**_
+
+1. Python
+2. NLTK 
+3. numpy
+4. pandas
+5.tweepy 
 
 Throughout this project, focus is on a challenging problem of detecting emotional state of a person based on his/her interactions on social media platforms, in this  twitter. 
 The main contributions of work are as follows:
 
 1.Data labeling has been done using the ground-level truth sentence patterns like “I feel sad, happy etc”. This method of data labeling has reduced the human effort to
 manually label the data sets.
+
 2.A variety of statistical attributes like behavioral attributes, social engagement and linguistic style attributes from users’ sampling period tweet postings have been proposed.
+
 The results obtained showed that proposed model is effective and efficient on detecting emotional state of user from micro-blog data.
 
 Below are the steps followed :
 
-#Data Collection : 
+_**1. Data Collection :**_ 
 
 Twitter's official Twitter APIs for developers are used to collect publicly available tweets. There are many tools that use the official APIs to collect data. 
 
@@ -22,7 +32,7 @@ Following items are used to collect raw tweets.
 
 Tweepy, a python library that use Twitter APIs is used in this project.
 
-#Data Preprocessing : 
+_**2. Data Preprocessing :**_ 
 
 Twitter REST APIs which are sufficient enough to collect required tweets data.
 
@@ -31,7 +41,9 @@ Data extraction using python and tweepy. Steps involved in collecting raw tweets
 Get access Tokens from Twitter APIs:
 In order to access twitter REST APIs, one needs to get access tokens from Twitter APIs. There are four tokens to be taken from Twitter APIs to collect required tweets data. They are : a) Consumer Key, b) Consumer Secret, c) Access Token and d) Access Token Secret.
 
-Following are the steps to get the four tokens. 1) Go to https://apps.twitter.com/ and log in with your twitter credentials.
+Following are the steps to get the four tokens.
+
+1) Go to https://apps.twitter.com/ and log in with your twitter credentials.
 
 2) Click on “Create New App” button.
 
@@ -45,7 +57,7 @@ In order to collect data, one needs to select the twitter users whose tweets are
 
 All the tweets collected are stored in organized structured format.
 
-#Data Preprocessing
+_**3. Data Preprocessing :**_
 
 Twitter is considered as a source for data. For data processing, first one needs to get raw tweets data from twitter. Secondly, pre-processing and extraction of features from the raw tweets are done for observation and analysis.
 
@@ -60,11 +72,13 @@ Parts of speech tagging of the sentences
 Count of positive and negative polarity words
 Grouping these modified tweets by user screen name or id
 
-#Data labeling:
+_**4. Data labeling :**_
 
-Tweets are labeled as positive tweet (1), negative tweet(-1) and neutral tweets(0) based on the common sentence patterns that expresses the emotion of a person such as , “I feel happy”, “ I feel stressed” etc., This method of labeling is proved to be effective in emotional analysis . Now data is available for feature extraction, analysis, further processing. Datasets Summary Collected 51 users tweet data from 01.2018 to 04.2018 as dataset1 and 62 users tweet data from 11.2017 to 02.2018 as dataset2. Details of the datasets are summarized in tables
+Tweets are labeled as positive tweet (1), negative tweet(-1) and neutral tweets(0) based on the common sentence patterns that expresses the emotion of a person such as , “I feel happy”, “ I feel stressed” etc., This method of labeling is proved to be effective in emotional analysis . Now data is available for feature extraction, analysis, further processing. Datasets Summary Collected 51 users tweet data from 01.2018 to 04.2018 as dataset1 and 62 users tweet data from 11.2017 to 02.2018 as dataset2. 
 
-Dataset 1: We have collected 51 users tweet data from 01.2018 to 04.2018 as dataset1
+Details of the datasets are summarized in tables
+
+Dataset 1: Collected 51 users tweet data from 01.2018 to 04.2018 as dataset1
 
 Dataset-1
 
