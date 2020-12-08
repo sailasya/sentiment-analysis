@@ -3,9 +3,13 @@
 _**Technologies & Libraries used :**_
 
 1. Python
+
 2. NLTK 
+
 3. numpy
+
 4. pandas
+
 5.tweepy 
 
 Throughout this project, focus is on a challenging problem of detecting emotional state of a person based on his/her interactions on social media platforms, in this  twitter. 
